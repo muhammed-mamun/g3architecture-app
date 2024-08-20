@@ -1,0 +1,24 @@
+.banner {
+  /* background-color: rgba(255, 144, 14, 0.1); */
+  padding: 50px 240px;
+}
+
+.banner-content {
+  max-width: 860px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner-content > .banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #131313;
+}
+
+.banner-content > .banner-description {
+  color: #727272;
+}
+
+.banner img {
+  margin-top: 50px;
+  width: 100%;
+}
