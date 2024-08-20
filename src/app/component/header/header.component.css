@@ -1,0 +1,31 @@
+/* Header Realated Syles */
+nav {
+  background-color: rgba(0, 0, 0, 0.02);
+  max-width: 1280px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  line-height: 0%;
+  border-radius: 16px;
+  position: sticky;
+}
+
+.nav-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #131313;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-weight: 500;
+  font-size: 1em;
+}
+nav > ul a {
+  text-decoration: none;
+  color: #424242;
+}
